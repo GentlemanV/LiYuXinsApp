@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <TextView
+            android:id="@+id/text_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="8"
+            android:background="@drawable/img_3"
+            android:textSize="35sp"
+            android:textColor="#b22222"
+            android:text="Spongebob"  />
+
+        <Button
+            android:id="@+id/button_4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textAllCaps="false"
+            android:background="#ffffff"
+            android:text="Merry Christmas"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <EditText
+            android:id="@+id/edit_text"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/img_4"
+            android:layout_gravity="left"
+            android:maxLines="3"
+            android:hint="Type something here"/>
+
+        <Button
+            android:id="@+id/button_5"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textAllCaps="false"
+            android:background="#ffffff"
+            android:text="Send"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>

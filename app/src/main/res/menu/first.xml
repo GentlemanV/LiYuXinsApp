@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/police_item"
+        android:title="一键报警"/>
+
+    <item
+        android:id="@+id/bd_item"
+        android:title="百度"/>
+
+</menu>
